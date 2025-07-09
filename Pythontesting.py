@@ -34,3 +34,15 @@
 #print(Patrick)
 #print(Sandy)
 #print(Squidward)
+
+#name = "Oliver"
+#print(len(name))
+#print(name.find("e"))
+#print(name.capitalize())
+#print(name.upper())
+#print(name.lower())
+#print(name.isdigit())
+#print(name.isalpha())
+#print(name.count())
+#print(name.replace("l","a"))
+#print(name*3)
