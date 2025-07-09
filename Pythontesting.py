@@ -46,3 +46,16 @@
 #print(name.count())
 #print(name.replace("l","a"))
 #print(name*3)
+
+#Type casting = convert data type of a value to another data type
+#x = 1 #int
+#y = 2.0 #float
+#z = "3" #str
+
+#x = str(x)
+#y = float(y)
+#z = float(z)
+
+#print("x is "+x)
+#print("y is "+str(y))
+#print(z*3)
