@@ -2,7 +2,7 @@
 #last_name = "Gaskill"
 #full_name = first_name +" "+ last_name
 #print("Hello "+full_name)
-from codecs import namereplace_errors
+
 
 #age = 24
 #age = age + 1
