@@ -69,4 +69,67 @@
 #print("You are "+str(age)+" years old")
 #print("You are "+str(height)+"cm tall")
 
-36:50 Time on Video
+import math
+
+#pi = 3.14
+#x = 1
+#y = 2
+#z = 3
+
+#print(round(pi))
+#print(math.ceil(pi))
+#print(math.floor(pi))
+#print(abs(pi))
+#print(pow(pi,2))
+#print(math.sqrt(420))
+#print(max(x,y,z))
+#print(min(z,x,y))
+
+
+#Slicing = Create a substring by extracting elements from another string
+# Indexing[]        slice()
+#   [start:stop:step]
+#name = "Oliver Gaskill"
+
+#first_name = name[0:6]
+#last_name  = name[7:14]
+#weird_name = name[2:8:2]
+#reversed_name = name[::-1]
+
+#print(reversed_name)
+#print(first_name)
+#print(last_name)
+#print(weird_name)
+
+# Slice()
+#website = "https://google.com"
+#website2 = "https://wikipedia.com"
+
+#slice = slice(8,-4)
+#print(website[slice])
+#print(website2[slice])
+
+
+# if statement = a block of code that will execute if it's condition is true
+#age = int(input("How old are u?: "))
+
+#if age == 100:
+#    print("u are old")
+#elif age >= 18:
+#    print("You are an adult!")
+
+#elif age < 0:
+#   print("You haven't born yet")
+#else:
+#    print("You are a child!")
+
+
+# Logical operators (and,or,not) = used to check if two or more conditional statements is true
+
+#temp = int(input("What is the temp outside right now?:"))
+
+#if not (temp >= 0 and temp <= 30):
+#    print("the temp is bad")
+#elif not (temp < 0 or temp > 30):
+#    print("the temperature is good today")
+
