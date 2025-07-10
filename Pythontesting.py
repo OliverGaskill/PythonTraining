@@ -133,3 +133,15 @@ import math
 #elif not (temp < 0 or temp > 30):
 #    print("the temperature is good today")
 
+
+# While loop = a statement that will execute it's block of code, as long as it's condition remains true
+
+#name = ""
+
+#while len(name) == 0:
+#    name = input("Name?")
+
+#print("Hello "+name)
+
+
+1:07:35 Vid
