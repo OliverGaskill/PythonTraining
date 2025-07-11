@@ -144,4 +144,85 @@ import math
 #print("Hello "+name)
 
 
-1:07:35 Vid
+# For loop = a statement that will execute it's block of code
+#            a limited amount of times
+
+#           while loop = unlimited
+#           for loop = limited
+
+#for i in range(10):
+#    print(i+1)
+
+#for i in range(50,100+1,2):
+#    print(i)
+
+#for i in "Oliver Gaskill":
+#    print(i)
+
+
+#import time
+
+#for seconds in range(10,0,-1):
+#    print(seconds)
+#    time.sleep(1)
+#print("Happy Year!")
+
+
+# Nested loops = the "inner loop" will finish all of it's iterations before finishing one iteration of the "outer loop"
+
+#rows = int(input("How many rows?:"))
+#columns = int(input("How manu columns:"))
+#symbol = input("Enter symbol for use:")
+
+#for i in range(rows):
+#    for j in range(columns):
+#        print(symbol, end="")
+#    print()
+
+
+# Loop control statements = change a loops execution from its normal sequence
+
+# break =       used to terminate the loop entirely
+# continue =    skips to the next iterations of the loop
+# pass =        does nothing, acts as a placeholder
+
+
+#while True:
+#    name = input("Name:")
+#    if name != "":
+#        break
+
+#phone_number = "123-456-789"
+
+#for i in phone_number:
+#    if i == "-":
+#        continue
+#    print(i,end="")
+
+
+#for i in range(1,21):
+#    if i == 13:
+#        pass
+#   else:
+#        print(i)
+
+
+# list = used to store multiple items in a single variable
+
+
+#food = ["pizza","hamburger","kebab","meatballs"]
+
+#food[0] = "sushi"
+
+#food.append("ice cream")
+#food.remove("hamburger")
+#food.pop()
+#food.insert(0,"cake")
+#food.sort()
+#food.clear()
+
+#print(food[0])
+
+#for x in food:
+#    print(x)
+
