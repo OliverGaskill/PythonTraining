@@ -70,6 +70,7 @@
 #print("You are "+str(height)+"cm tall")
 
 import math
+from ftplib import parse227
 
 #pi = 3.14
 #x = 1
@@ -226,4 +227,70 @@ import math
 #for x in food:
 #    print(x)
 
-1:27:18
+
+# 2D = Lists = a list of lists
+
+#drinks = ["coffe","soda","tea"]
+#dinner = ["pizza","burger", "hotdog"]
+#dessert = ["cake","ice cream"]
+
+#food = [drinks,dinner,dessert]
+
+#print(food[2][1])
+
+# tuple = collection which is ordered and unchangeable, used to group together related data
+
+#student = ("Oliver",24,"male")
+
+#print(student.count("Oliver"))
+#print(student.index("male"))
+
+#for x in student:
+#    print(x)
+
+#if "Oliver" in student:
+#    print("Oliver is here!")
+
+
+# set = collection which unordered, unindexed. No duplicate values
+
+#utensils = {"fork","spoon","knife"}
+#dishes = {"bowl","plate","cup","knife"}
+
+#utensils.add("napkin")
+#utensils.remove("fork")
+#utensils.clear()
+#utensils.update(dishes)
+
+#dinner_table = utensils.union(dishes)
+
+#for x in dinner_table:
+#    print(x)
+
+#print(dishes.difference(utensils))
+
+#print(utensils.intersection(dishes))
+
+
+# dictionary = A changeable, unordered collection of unique key:value pairs, Fast because the use hashing, allow us to access a value quickly
+
+#capitals = {'USA':'Washington DC',
+#            'India':'New Dehli',
+#            'China':'Beijing',
+ #           'Russia':'Moscow'}
+
+#capitals.update({'Germany':'Berlin'})
+#capitals.update({'USA':'Las Vegas'})
+#capitals.pop('China')
+#capitals.clear()
+
+#(capitals['Russia'])
+#print(capitals.get('Germany'))
+#print(capitals.keys())
+#print(capitals.values())
+#print(capitals.items())
+
+#for key in capitals.items():
+#    print(key)
+
+
