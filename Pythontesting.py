@@ -69,8 +69,8 @@
 #print("You are "+str(age)+" years old")
 #print("You are "+str(height)+"cm tall")
 
-import math
-from ftplib import parse227
+#import math
+#from ftplib import parse227
 
 #pi = 3.14
 #x = 1
@@ -294,3 +294,4 @@ from ftplib import parse227
 #    print(key)
 
 
+1:47:20
