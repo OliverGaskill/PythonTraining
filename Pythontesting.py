@@ -69,8 +69,8 @@
 #print("You are "+str(age)+" years old")
 #print("You are "+str(height)+"cm tall")
 
-import math
-from ftplib import parse227
+#import math
+
 
 #pi = 3.14
 #x = 1
@@ -294,3 +294,14 @@ from ftplib import parse227
 #    print(key)
 
 
+# index operator [] = gives access to a sequence's element (str,list,tuples)
+
+name = "oliver gaskill!"
+
+#f(name[0].islower()):
+#    name = name.capitalize()
+
+first_name = name[:6].upper()
+last_name = name[7:].lower()
+print(first_name)
+print(last_name)
