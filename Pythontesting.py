@@ -2,6 +2,7 @@
 #last_name = "Gaskill"
 #full_name = first_name +" "+ last_name
 #print("Hello "+full_name)
+#from math import trunc
 
 
 #age = 24
@@ -337,3 +338,62 @@
 #                          returned value is used as a argument for the next outer function
 
 #print(round(abs(float(input("Enter a whole positive number:")))))
+
+
+# scope = the region that a variable is recognized
+#         A variable is only available from inside the region it is created
+#         A global and locally scoped versions of a variable can be created
+
+#name = "Oliver" #global scope (available inside and outside functions)
+
+#def display_name():
+#    name = "Gaskill" # local scope (available only inside this function)
+#    print(name)
+
+#display_name()
+#print(name)
+
+
+# *args = parameter that will pack all arguments into a tuple
+#         useful so that a function can accept a varying amount of arguments
+
+#def add(*stuff):
+#    sum = 0
+#    stuff = list(stuff)
+#    stuff[0] = 0
+#    for i in stuff:
+#        sum += i
+#    return sum
+
+#print(add(1,2,3,4,6,5))
+
+
+
+# **kwargs = parameter that will pack all arguments into a dictionary
+#            useful so that a function can accept a varying amount if keyword arguments
+
+#def hello (**kwargs):
+#    #print("Hello " + kwargs['first'] + " " + kwargs['last'])
+#    print("Hello",end=" ")
+#    for key,value in kwargs.items():
+#        print(value, end=" ")
+
+
+#hello(title="Mr",first="Oliver",middle="random",last="Gaskill")
+
+
+
+# str.format() = optional method that gives users more control when displaying output
+
+#animal = "cow"
+#item = "moon!"
+
+#print("The "+animal+" jumped over the "+item)
+#print("The {0} jumped over the {1}".format(animal,item)) #positional argument
+#print("The {animal} jumped over the {item}".format(animal="cow",item="moon"))
+
+
+#text = "The {} jumped over the {}"
+#print(text.format(animal,item))
+
+
