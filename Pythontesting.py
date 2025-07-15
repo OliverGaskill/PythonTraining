@@ -69,8 +69,7 @@
 #print("You are "+str(age)+" years old")
 #print("You are "+str(height)+"cm tall")
 
-import math
-from ftplib import parse227
+
 
 #pi = 3.14
 #x = 1
@@ -319,3 +318,22 @@ from ftplib import parse227
 # return statement = Functions sed Python values/objects back to the caller.
 #                    These values/objects are known as the function's return value
 
+#def multiply(number1, number2):
+#    return number1 * number2
+
+#x = multiply(6,8)
+#print(x)
+
+
+# keyword arguments = arguments preceded by an identifier when we pass them to a function
+#                     The order of the arguments doesn't matter, unlike positional arguments
+#                     Python knows the names of the arguments that our function receives
+
+
+
+
+# nested functions calls = function calls inside other function calls
+#                          innermost function calls are resolved first
+#                          returned value is used as a argument for the next outer function
+
+#print(round(abs(float(input("Enter a whole positive number:")))))
