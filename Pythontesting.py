@@ -396,4 +396,14 @@
 #text = "The {} jumped over the {}"
 #print(text.format(animal,item))
 
+#number = 1000
 
+#print("The number pi is {:.4f}" .format(number))
+#print("The number is {:,}" .format(number))
+#print("The number is {:b}" .format(number))
+#print("The number is {:o}" .format(number))
+#print("The number is {:x}" .format(number))
+#print("The number is {:E}" .format(number))
+
+
+2:33:20
