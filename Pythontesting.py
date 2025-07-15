@@ -294,3 +294,28 @@ from ftplib import parse227
 #    print(key)
 
 
+
+
+#name = "oliver gaskill!"
+
+#f(name[0].islower()):
+#    name = name.capitalize()
+
+#first_name = name[:6].upper()
+#last_name = name[7:].lower()
+#print(first_name)
+#print(last_name)
+
+
+# function = a block of code which is executed only when it is called.
+
+#def hello(first_name, last_name, age):
+#    print("Hello "+first_name+" "+last_name)
+#    print("You are "+str(age)+" Years old")
+
+#hello("Oliver","Gaskill", 24)
+
+
+# return statement = Functions sed Python values/objects back to the caller.
+#                    These values/objects are known as the function's return value
+
