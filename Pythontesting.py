@@ -2,6 +2,7 @@
 #last_name = "Gaskill"
 #full_name = first_name +" "+ last_name
 #print("Hello "+full_name)
+#from math import trunc
 
 
 #age = 24
@@ -69,7 +70,7 @@
 #print("You are "+str(age)+" years old")
 #print("You are "+str(height)+"cm tall")
 
-import math
+
 
 #pi = 3.14
 #x = 1
@@ -226,4 +227,210 @@ import math
 #for x in food:
 #    print(x)
 
-1:27:18
+
+# 2D = Lists = a list of lists
+
+#drinks = ["coffe","soda","tea"]
+#dinner = ["pizza","burger", "hotdog"]
+#dessert = ["cake","ice cream"]
+
+#food = [drinks,dinner,dessert]
+
+#print(food[2][1])
+
+# tuple = collection which is ordered and unchangeable, used to group together related data
+
+#student = ("Oliver",24,"male")
+
+#print(student.count("Oliver"))
+#print(student.index("male"))
+
+#for x in student:
+#    print(x)
+
+#if "Oliver" in student:
+#    print("Oliver is here!")
+
+
+# set = collection which unordered, unindexed. No duplicate values
+
+#utensils = {"fork","spoon","knife"}
+#dishes = {"bowl","plate","cup","knife"}
+
+#utensils.add("napkin")
+#utensils.remove("fork")
+#utensils.clear()
+#utensils.update(dishes)
+
+#dinner_table = utensils.union(dishes)
+
+#for x in dinner_table:
+#    print(x)
+
+#print(dishes.difference(utensils))
+
+#print(utensils.intersection(dishes))
+
+
+# dictionary = A changeable, unordered collection of unique key:value pairs, Fast because the use hashing, allow us to access a value quickly
+
+#capitals = {'USA':'Washington DC',
+#            'India':'New Dehli',
+#            'China':'Beijing',
+ #           'Russia':'Moscow'}
+
+#capitals.update({'Germany':'Berlin'})
+#capitals.update({'USA':'Las Vegas'})
+#capitals.pop('China')
+#capitals.clear()
+
+#(capitals['Russia'])
+#print(capitals.get('Germany'))
+#print(capitals.keys())
+#print(capitals.values())
+#print(capitals.items())
+
+#for key in capitals.items():
+#    print(key)
+
+
+
+
+#name = "oliver gaskill!"
+
+#f(name[0].islower()):
+#    name = name.capitalize()
+
+#first_name = name[:6].upper()
+#last_name = name[7:].lower()
+#print(first_name)
+#print(last_name)
+
+
+# function = a block of code which is executed only when it is called.
+
+#def hello(first_name, last_name, age):
+#    print("Hello "+first_name+" "+last_name)
+#    print("You are "+str(age)+" Years old")
+
+#hello("Oliver","Gaskill", 24)
+
+
+# return statement = Functions sed Python values/objects back to the caller.
+#                    These values/objects are known as the function's return value
+
+#def multiply(number1, number2):
+#    return number1 * number2
+
+#x = multiply(6,8)
+#print(x)
+
+
+# keyword arguments = arguments preceded by an identifier when we pass them to a function
+#                     The order of the arguments doesn't matter, unlike positional arguments
+#                     Python knows the names of the arguments that our function receives
+
+
+
+
+# nested functions calls = function calls inside other function calls
+#                          innermost function calls are resolved first
+#                          returned value is used as a argument for the next outer function
+
+#print(round(abs(float(input("Enter a whole positive number:")))))
+
+
+# scope = the region that a variable is recognized
+#         A variable is only available from inside the region it is created
+#         A global and locally scoped versions of a variable can be created
+
+#name = "Oliver" #global scope (available inside and outside functions)
+
+#def display_name():
+#    name = "Gaskill" # local scope (available only inside this function)
+#    print(name)
+
+#display_name()
+#print(name)
+
+
+# *args = parameter that will pack all arguments into a tuple
+#         useful so that a function can accept a varying amount of arguments
+
+#def add(*stuff):
+#    sum = 0
+#    stuff = list(stuff)
+#    stuff[0] = 0
+#    for i in stuff:
+#        sum += i
+#    return sum
+
+#print(add(1,2,3,4,6,5))
+
+
+
+# **kwargs = parameter that will pack all arguments into a dictionary
+#            useful so that a function can accept a varying amount if keyword arguments
+
+#def hello (**kwargs):
+#    #print("Hello " + kwargs['first'] + " " + kwargs['last'])
+#    print("Hello",end=" ")
+#    for key,value in kwargs.items():
+#        print(value, end=" ")
+
+
+#hello(title="Mr",first="Oliver",middle="random",last="Gaskill")
+
+
+
+# str.format() = optional method that gives users more control when displaying output
+
+#animal = "cow"
+#item = "moon!"
+
+#print("The "+animal+" jumped over the "+item)
+#print("The {0} jumped over the {1}".format(animal,item)) #positional argument
+#print("The {animal} jumped over the {item}".format(animal="cow",item="moon"))
+
+
+#text = "The {} jumped over the {}"
+#print(text.format(animal,item))
+
+#number = 1000
+
+#print("The number pi is {:.4f}" .format(number))
+#print("The number is {:,}" .format(number))
+#print("The number is {:b}" .format(number))
+#print("The number is {:o}" .format(number))
+#print("The number is {:x}" .format(number))
+#print("The number is {:E}" .format(number))
+
+
+# random module
+
+#import random
+
+#x = random.randint(1,9)
+#y = random.random()
+
+#mylist = ['rock', 'paper', 'scissors']
+#z = random.choice(mylist)
+
+#cards = [1,2,3,4,5,6,7,8,9,"J","Q","K","A"]
+#random.shuffle(cards)
+#print(cards)
+
+
+
+2:47:30
+
+
+
+
+
+
+
+
+
+
+
