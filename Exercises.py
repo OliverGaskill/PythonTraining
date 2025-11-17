@@ -191,5 +191,130 @@
 # print("You have lived for", seconds, "seconds.")
 
 
-for i in range (1, 6):
-    print(i, 1, i, i**2, i**3) 
+# for i in range (1, 6):
+#     print(i, 1, i, i**2, i**3) 
+
+#Concatenate list elements into a string
+# days = ['Thirty', 'Days', 'Of', 'Python']
+# result = ' '.join(days)
+# print(result)
+
+# coding = ['Coding', 'For', 'All']  
+# result = ' '.join(coding)
+# print(result)
+
+# coding = "Coding For All" 
+# print(coding.lower())  
+
+# items = ["apple", "banana", "cherry", "mango", "orange"] 
+# print(len(items))
+
+# first_item = items[0]
+# middle_item = items[len(items) // 2]
+# last_item = items[-1]
+
+# print("First item:", first_item)
+# print("Middle item:", middle_item)
+# print("Last item:", last_item)
+
+# it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']  
+# print(len(it_companies))
+# first_company = it_companies[0]
+# middle_company = it_companies[len(it_companies) // 2]
+# last_company = it_companies[-1]
+# print("First company:", first_company)
+# print("Middle company:", middle_company)    
+# print("Last company:", last_company)
+
+# # Remove 'Amazon' from the list
+# it_companies.remove('Amazon')
+# print(it_companies)
+
+# # Change 'Google' to 'Alphabet'
+# it_companies[1] = 'Alphabet'
+# print(it_companies)
+# # Add 'Twitter' to the end of the list
+# it_companies.append('Twitter')
+# print(it_companies)
+
+# # Insert 'LinkedIn' in the middle of the list
+# middle_index = len(it_companies) // 2
+# it_companies.insert(middle_index, 'LinkedIn') 
+# print(it_companies)
+
+# # Change 'LinkedIn' to uppercase
+# it_companies[3] = it_companies[3].upper()
+# print(it_companies)
+
+# # Join the list into a string separated by spaces
+# result = " ".join(it_companies)
+# print(result)
+
+# # Check if 'IBM' is in the list
+# if 'IBM' in it_companies:
+#     print("IBM is found in the list.")
+
+# # Sort the list
+# it_companies.sort()
+# print(it_companies)
+
+# # Reverse the list
+# it_companies.reverse()
+# print(it_companies)
+
+# # Slice the first 3 companies
+# first_three = it_companies[:3]
+# print("First three companies:", first_three)
+
+# # Slice the last 3 companies
+# last_three = it_companies[-3:]
+# print("Last three companies:", last_three)
+
+# # Slice the middle company
+# middle_company = it_companies[len(it_companies) // 2:len(it_companies) // 2 + 1]
+# print("Middle company:", middle_company)
+
+# # Remove the first company
+# it_companies.pop(0)
+# print(it_companies)
+
+# # Remove the middle company
+# middle_index = len(it_companies) // 2   
+# it_companies.pop(middle_index)
+# print(it_companies)
+
+# # Remove the last company
+# it_companies.pop(-1)
+# print(it_companies)
+
+# # Clear the list
+# it_companies.clear()
+# print(it_companies)
+
+# Joining lists
+# front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+# back_end = ['Node', 'Express', 'MongoDB']
+# full_stack = front_end + back_end
+# insert elements at specific positions
+# full_stack.insert(5,'Python')
+# full_stack.insert(6,'SQL')
+# print(full_stack)
+
+# ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+# ages.sort()
+# min_age = ages[0]
+# max_age = ages[-1]
+# print("Ages:", ages)
+# print("Min age:", min_age)
+# print("Max age:", max_age)
+# median_age = (ages[len(ages) // 2 - 1] + ages[len(ages) // 2]) / 2 if len(ages) % 2 == 0 else ages[len(ages) // 2]
+# print("Median age:", median_age)
+# average_age = sum(ages) / len(ages)
+# print("Average age:", average_age)
+# range_of_ages = max_age - min_age
+# print("Range of ages:", range_of_ages)
+# # Compare min and max age with average age
+# print("Min age is close to average age:", abs(min_age - average_age) < abs(max_age - average_age))  
+
+
+
