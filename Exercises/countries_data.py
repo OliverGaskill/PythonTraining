@@ -2618,8 +2618,6 @@ countries_data = [
         "currency": "Botswana pula"
     }
 ]
-      
-
 
 # Create a set to store unique languages
 all_languages = set()
@@ -2639,7 +2637,10 @@ for country in countries_data:
     for lang in country.get("languages", []):
         language_counter[lang] += 1
 most_common_languages = language_counter.most_common(10)
-print("Ten most spoken languages:", most_common_languages)
+
+print("Ten most spoken languages:")
+for i, (lang, count) in enumerate(most_common_languages, start=1):
+    print(f"{i}. {lang} - spoken in {count} countries")
 
 # Sort countries by population in descending order
 most_populated = sorted(countries_data, key=lambda c: c.get("population", 0), reverse=True)
@@ -2650,4 +2651,4 @@ top_10 = most_populated[:10]
 # Print nicely
 print("Top 10 most populated countries:")
 for country in top_10:
-    print(f"{country['name']}: {country['population']}")
+    print(f"{country['name']}: {country['population']} million people")
